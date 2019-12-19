@@ -30,15 +30,15 @@
   <!-- Navbar (sit on top) -->
   <div class="w3-top">
     <div class="w3-padding-small w3-white w3-card" id="myNavbar">
-      <a href="#home" class="w3-padding-small-item w3-button w3-hover-white w3-wide w3-hide-small">iCode4NUS</a>
-      <a href="#home"
-        class="w3-padding-small-item w3-button w3-hover-white w3-wide w3-hide-medium w3-hide-large">iCode4NUS</a>
+      <a href="https://nusit.nus.edu.sg/" class="w3-padding-small-item w3-button w3-hover-white w3-wide w3-hide-small">iCode4NUS</a>
+      <a href="https://nusit.nus.edu.sg/" class="w3-padding-small-item w3-button w3-hover-white w3-wide w3-hide-medium w3-hide-large">iCode4NUS</a>
       <!-- Right-sided navbar links -->
       <div class="w3-right w3-hide-small w3-hide-medium">
-        <a href="#about" class="w3-padding-small-item w3-button">ABOUT</a>
-        <a href="#guides" class="w3-padding-small-item w3-button"><i class="fa fa-th"></i> GUIDES</a>
-        <a href="#faq" class="w3-padding-small-item w3-button"><i class="fa fa-question-circle"></i> FAQ</a>
-        <a href="#contact" class="w3-padding-small-item w3-button"><i class="fa fa-envelope"></i> CONTACT</a>
+        <a href="#/" class="w3-padding-small-item w3-button">HOME</a>
+        <a href="#/services" class="w3-padding-small-item w3-button"><i class="fa fa-th"></i>SERVICES</a>
+        <a href="#/faq" class="w3-padding-small-item w3-button"><i class="fa fa-question-circle"></i> FAQ</a>
+        <a href="#/review" class="w3-padding-small-item w3-button"><i class="fa fa-envelope"></i> REVIEW</a>
+        <a href="#/footer" class="w3-padding-small-item w3-button"><i class="fa fa-envelope"></i> CONTACT US</a>
       </div>
       <!-- Hide right-floated links on small screens and replace them with a menu icon
     ***VERY NICE w3 feature -->
@@ -53,13 +53,15 @@
     style="display:none;right:0" id="mySidebar">
     <a href="javascript:void(0)" onclick="w3_close()"
       class="w3-padding-small-item w3-button w3-large w3-padding-16">Close ×</a><br>
-    <a href="#about" onclick="w3_close()" class="w3-padding-small-item w3-button">ABOUT</a><br>
-    <a href="#guides" onclick="w3_close()" class="w3-padding-small-item w3-button"><i class="fa fa-th"></i>
-      GUIDES</a><br>
+    <a href="#/" onclick="w3_close()" class="w3-padding-small-item w3-button">ABOUT</a><br>
+    <a href="#/services" onclick="w3_close()" class="w3-padding-small-item w3-button"><i class="fa fa-th"></i>
+      SERVICES</a><br>
     <a href="#faq" onclick="w3_close()" class="w3-padding-small-item w3-button"><i class="fa fa-question-circle"></i>
       FAQ</a><br>
-    <a href="#contact" onclick="w3_close()" class="w3-padding-small-item w3-button"><i class="fa fa-envelope"></i>
-      CONTACT</a><br>
+    <a href="#/review" onclick="w3_close()" class="w3-padding-small-item w3-button"><i class="fa fa-envelope"></i>
+      REVIEW</a><br>
+    <a href="#/footer" onclick="w3_close()" class="w3-padding-small-item w3-button"><i class="fa fa-envelope"></i>
+      CONTACT US</a><br>
   </nav>
 
   <script>
@@ -90,7 +92,7 @@
   </script>
 
   <script type="text/ng-template" id="home_template">
-    <object type="text/html" data="pages/home-section.html" style="width: 100%; height: 100%; min-height: 100vh; max-height: 500vh; /* set the height of the layout */"></object>
+    <object type="text/html" data="pages/home-section.html" style="width: 100%; height: 100vh; min-height: 100vh; max-height: 500vh; /* set the height of the layout */"></object>
   </script>
 
   <script type="text/ng-template" id="review_template">
