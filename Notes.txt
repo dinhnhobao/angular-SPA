@@ -1,0 +1,7 @@
+
+Single Page Application, SPA
+    the navigation within the website is performed without refreshing the whole page.
+    Advantages: ...
+
+Workable tutorial:
+    https://tests4geeks.com/single-page-application-using-angularjs-tutorial/
