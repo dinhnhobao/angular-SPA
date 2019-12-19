@@ -4,31 +4,44 @@ app.config(function ($routeProvider) {
     $routeProvider
 
         .when('/', {
-            templateUrl: 'pages/home.html',
+            templateUrl: 'home_template',
             controller: 'HomeController'
         })
 
-        .when('/blog', {
-            templateUrl: 'pages/blog.html',
-            controller: 'BlogController'
+        .when('/footer', {
+            templateUrl: 'footer_template',
+            controller: 'FooterController'
         })
 
-        .when('/about', {
-            templateUrl: 'pages/about.html',
-            controller: 'AboutController'
+        .when('/review', {
+            templateUrl: 'review_template',
+            controller: 'ReviewController'
         })
 
+        .when('/faq', {
+            templateUrl: 'faq_template',
+            controller: 'FAQController'
+        })
+
+        .when('/services', {
+            templateUrl: 'service_template',
+            controller: 'ServiceController'
+        })
         .otherwise({ redirectTo: '/' });
 });
 
 app.controller('HomeController', function ($scope) {
-    $scope.message = 'Hello from HomeController';
 });
 
-app.controller('BlogController', function ($scope) {
-    $scope.message = 'Hello from BlogController';
+app.controller('FooterController', function ($scope) {
 });
 
-app.controller('AboutController', function ($scope) {
-    $scope.message = 'Hello from AboutController';
+app.controller('ReviewController', function ($scope) {
+    $scope.message = "dsodka";
+});
+
+app.controller('FAQController', function ($scope) {
+});
+
+app.controller('ServiceController', function ($scope) {
 });

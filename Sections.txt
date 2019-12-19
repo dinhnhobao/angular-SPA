@@ -1,0 +1,61 @@
+1. Application and background
+    CHEAP ... ...
+
+2. Guides, to be modified/extended
+
+3. FAQ -> more questions, animation?
+    DESIGN DONE
+
+4. Contributions: person ... has contributed to app ... on SDP
+    same as (1.)
+Khan Academy would like
+to thank all who’ve dedicated
+their time, energy, and
+expertise to our mission.
+
+This project exists thanks to all the people who contributed.
+We are proud to have some of the brightest minds in the industry share their thought leadership and experience with our audience.  These contributors provide valuable insights from both a business-to-consumer and business-to-business perspective helping us truly create a “Business-to-Community” experience.
+
+We would like to thank our contributors, whose efforts over many years have made this software what it is.
+
+5. Services provided:
+    AWS EC2, S3, and more to come
+    https://themes.getbootstrap.com/preview/?theme_id=21888
+    https://themes.getbootstrap.com/preview/?theme_id=19889
+    https://themes.getbootstrap.com/preview/?theme_id=5348
+
+7. Reviews: DESIGN DONE
+    Bootstrap testimonial slider
+    https://themes.getbootstrap.com/preview/?theme_id=19889
+    https://themes.getbootstrap.com/preview/?theme_id=5348
+6. Web footer: IMAGE BUGS TO FIX
+    https://nusit.nus.edu.sg/
+    https://www.comp.nus.edu.sg/ footers (Resources)
+
+    file:///C:/Tutorials/nodeJS/datree-best.html
+    file:///C:/Tutorials/nodeJS/Nimblr.html
+    So how can we make you shine?
+    advanced: zoom image
+
+
+Shortlisted:
+file:///C:/Tutorials/nodeJS/datree-best.html
+file:///C:/Tutorials/nodeJS/HarperDB.html
+file:///C:/Tutorials/nodeJS/purchaseCommerce.html
+file:///C:/Tutorials/nodeJS/Snyk.html
+file:///C:/Tutorials/nodeJS/Slickpos.html
+file:///C:/Tutorials/nodeJS/Gaviti.html
+file:///C:/Tutorials/nodeJS/minehut.html for numbers, shockers
+file:///C:/Tutorials/nodeJS/Nimblr.html
+file:///C:/Tutorials/nodeJS/builderBookOrg.html for reviews
+file:///C:/Tutorials/nodeJS/captureTechulusIn.html
+https://www.superscript.app/
+file:///C:/Tutorials/nodeJS/Profoundjs.html
+file:///C:/Tutorials/nodeJS/Superscript.html
+file:///C:/Tutorials/nodeJS/Tymly.html has FAQ
+https://www.allcancode.com/
+file:///C:/Tutorials/nodeJS/Tymly.html
+file:///C:/Tutorials/bootstrap/Crit-research.html
+file:///C:/Tutorials/bootstrap/oneNYCCityOfNewYork.html
+
+meta tag for marketing

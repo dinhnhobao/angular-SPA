@@ -2,31 +2,57 @@
 <html ng-app="myApp">
 
 <head>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.7/angular.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.7/angular-route.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.7/angular.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.7/angular-route.min.js"></script>
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="HandheldFriendly" content="true">
+  <style>
+    [ng-view] {
+      min-height: 100%;
+    }
+
+    body {
+      width: 100%;
+      overflow-x: hidden;
+      overflow-y: hidden;
+    }
+  </style>
 </head>
 
 <body>
-    <script type="text/ng-template" id="pages/home.html">
-      <h1>Home</h1>
-      <h3>{{message}}</h3>
-    </script>
-    <script type="text/ng-template" id="pages/blog.html">
-      <h1>Blog</h1>
-      <h3>{{message}}</h3>
-    </script>
-    <script type="text/ng-template" id="pages/about.html">
-      <h1>About</h1>
-      <h3>{{message}}</h3>
-    </script>
 
-    <a href="#/">Home</a>
-    <a href="#/blog">Blog</a>
-    <a href="#/about">About</a>
+  <script type="text/ng-template" id="home_template">
+    <h1>Home</h1>
+    <h3>{{message}}</h3>
+  </script>
 
-    <div ng-view></div>
+  <script type="text/ng-template" id="review_template">
+    <object type="text/html" data="pages/review-section.html" style="width: 100%; height: 100%; min-height: 100vh; max-height: 500vh; /* set the height of the layout */"></object>
+  </script>
 
-    <script src="app.js"></script>
+  <script type="text/ng-template" id="faq_template">
+    <object type="text/html" data="pages/faq-section.html" style="width: 100%; height: 100%; min-height: 100vh; max-height: 500vh; /* set the height of the layout */"></object>
+  </script>
+
+  <script type="text/ng-template" id="footer_template">
+    <object type="text/html" data="pages/footer-section.html" style="width: 100%; height: 100%; min-height: 100vh; max-height: 500vh; /* set the height of the layout */"></object>
+  </script>
+
+  <script type="text/ng-template" id="service_template">
+    <object type="text/html" data="pages/services-provided-section.html" style="width: 100%; height: 100%; min-height: 100vh; max-height: 500vh; /* set the height of the layout */"></object>
+  </script>
+
+  <a href="#/">Home</a>
+  <a href="#/review">Review</a>
+  <a href="#/footer">Footer</a>
+  <a href="#/faq">FAQ</a>
+  <a href="#/services">Services</a>
+
+  <div ng-view></div> <!-- Activate different scripts/html files based on the url -->
+
+
+  <script src="app.js"></script>
 </body>
 
 </html>
