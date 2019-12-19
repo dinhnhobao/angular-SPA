@@ -37,7 +37,6 @@ app.controller('FooterController', function ($scope) {
 });
 
 app.controller('ReviewController', function ($scope) {
-    $scope.message = "dsodka";
 });
 
 app.controller('FAQController', function ($scope) {

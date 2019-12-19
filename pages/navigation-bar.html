@@ -1,26 +1,83 @@
-<!doctype html>
-<html ng-app="myApp">
+<!DOCTYPE html>
+<html>
 
 <head>
-  <meta charset="UTF-8">
-  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.7/angular.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.7/angular-route.min.js"></script>
-  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>The title: iCode4NUS</title>
+  <!--
+The website is a single page (index.html) using the responsive w3css framework.
+[Nice property of w3.css: using standard CSS (without jQuery or JavaScript library)
+to fit the content nicely for all browsers on all devices.]
+https://www.w3schools.com/w3css/
+-->
 
-  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <meta name="HandheldFriendly" content="true">
+  <meta charset="UTF-8">
+  <!--https://www.w3schools.com/html/html_charset.asp-->
+  <!--To display an HTML page correctly, a web browser must know which character set to use.
+ASCII encoding, HTML 4, UTF-8
+-->
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
+  <!--https://css-tricks.com/snippets/html/responsive-meta-tag/
+initial-scale = 1: This means that the browser will (probably)
+render the width of the page at the width of its own screen.
+Note: don't use a responsive meta tag if your website isn't specifically designed to be responsive
+and work well at that size, as it will make the experience worse.
+-->
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <!--importing css from directories-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!--importing css from directories-->
+
   <style>
-    [ng-view] {
-      min-height: 100%;
+    body,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      font-family: 'Helvetica Neue', Verdana, sans-serif
     }
 
-    body {
-      width: 100%;
-      overflow-x: hidden;
-      overflow-y: hidden;
+    body,
+    html {
+      height: 100%;
+      line-height: 1.8;
+    }
+
+    h3 {
+      letter-spacing: 2px;
+    }
+
+    /* The big image header at the top of the website */
+    .bgimg-1 {
+      /* defines a new style */
+      /*background-attachment: fixed;*/
+      background-position: center;
+      background-size: cover;
+      min-height: 100%;
+      background-image: url("images/codes.jpg");
+    }
+
+    /* background image */
+    #guides {
+      /* defines a new style */
+      background-image: url("images/sdp.jpg");
+      background-position: center;
+      background-size: cover;
+    }
+
+    .w3-padding-small .w3-button {
+      /* overrides and add extra attributes for these styles in w3 */
+      padding: 16px;
+    }
+
+    @media (max-width: 480px) {
+
+      /* overrides and add extra attributes for these styles in w3 */
+      .w3-padding-small .w3-button {
+        /*overriding attribute is one layer in @media */
+        padding: 6px;
+      }
     }
   </style>
 </head>
@@ -89,36 +146,6 @@
     }
   </script>
 
-  <script type="text/ng-template" id="home_template">
-    <object type="text/html" data="pages/home-section.html" style="width: 100%; height: 100%; min-height: 100vh; max-height: 500vh; /* set the height of the layout */"></object>
-  </script>
-
-  <script type="text/ng-template" id="review_template">
-    <object type="text/html" data="pages/review-section.html" style="width: 100%; height: 100%; min-height: 100vh; max-height: 500vh; /* set the height of the layout */"></object>
-  </script>
-
-  <script type="text/ng-template" id="faq_template">
-    <object type="text/html" data="pages/faq-section.html" style="width: 100%; height: 100%; min-height: 100vh; max-height: 500vh; /* set the height of the layout */"></object>
-  </script>
-
-  <script type="text/ng-template" id="footer_template">
-    <object type="text/html" data="pages/footer-section.html" style="width: 100%; height: 100%; min-height: 100vh; max-height: 500vh; /* set the height of the layout */"></object>
-  </script>
-
-  <script type="text/ng-template" id="service_template">
-    <object type="text/html" data="pages/services-provided-section.html" style="width: 100%; height: 100%; min-height: 100vh; max-height: 500vh; /* set the height of the layout */"></object>
-  </script>
-
-  <a href="#/">Home</a>
-  <a href="#/review">Review</a>
-  <a href="#/footer">Footer</a>
-  <a href="#/faq">FAQ</a>
-  <a href="#/services">Services</a>
-
-  <div ng-view></div> <!-- Activate different scripts/html files based on the url -->
-
-
-  <script src="app.js"></script>
 </body>
 
 </html>
