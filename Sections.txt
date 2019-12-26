@@ -1,6 +1,7 @@
 1. Application and background
     CHEAP ... ...
-
+    file:///C:/Tutorials/nodeJS/minehut.html
+    http://hackwagon.com/
 2. Guides, to be modified/extended
 
 3. FAQ -> more questions, animation?
