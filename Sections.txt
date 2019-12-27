@@ -1,14 +1,12 @@
 1. Application and background
-    CHEAP ... ...
-    file:///C:/Tutorials/nodeJS/minehut.html
-    http://hackwagon.com/
+    Done
 2. Guides, to be modified/extended
-
+    Guides section left.
 3. FAQ -> more questions, animation?
-    DESIGN DONE
+    Done
 
 4. Contributions: person ... has contributed to app ... on SDP
-    same as (1.)
+    Done
 Khan Academy would like
 to thank all who’ve dedicated
 their time, energy, and
@@ -20,16 +18,19 @@ We are proud to have some of the brightest minds in the industry share their tho
 We would like to thank our contributors, whose efforts over many years have made this software what it is.
 
 5. Services provided:
-    AWS EC2, S3, and more to come
+    AWS EC2
+    Done
     https://themes.getbootstrap.com/preview/?theme_id=21888
     https://themes.getbootstrap.com/preview/?theme_id=19889
     https://themes.getbootstrap.com/preview/?theme_id=5348
 
-7. Reviews: DESIGN DONE
+7. Reviews: 
     Bootstrap testimonial slider
+    Done
     https://themes.getbootstrap.com/preview/?theme_id=19889
     https://themes.getbootstrap.com/preview/?theme_id=5348
-6. Web footer: IMAGE BUGS TO FIX
+6. Web footer:
+    Done IMAGE BUGS TO FIX
     https://nusit.nus.edu.sg/
     https://www.comp.nus.edu.sg/ footers (Resources)
 
@@ -60,9 +61,3 @@ file:///C:/Tutorials/bootstrap/Crit-research.html
 file:///C:/Tutorials/bootstrap/oneNYCCityOfNewYork.html
 
 meta tag for marketing
-
-JavaScript library for creating JavaScript survey forms
-
-.ts, use mock data for NUS Staff
-
-/usernew

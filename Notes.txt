@@ -11,3 +11,5 @@ Workable tutorial:
 https://surveyjs.io/Examples/Survey-Creator/?id=questioneditor&theme=bootstrap
 
 https://surveyjs.io/Documentation/Library/?id=Add-Survey-into-your-Web-Page
+
+https://www.tsaateashop.com/ for moving texts
