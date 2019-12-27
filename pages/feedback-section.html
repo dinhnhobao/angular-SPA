@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+
+    <!-- My platform (jquery) scripts. -->
+    <script src="https://unpkg.com/jquery"></script>
+
+    <script src="https://surveyjs.azureedge.net/1.1.26/survey.jquery.min.js"></script>
+    <link href="https://surveyjs.azureedge.net/1.1.26/survey.css" type="text/css" rel="stylesheet" />
+    <style>
+        .sv_main .sv_header {
+            color: #ef7c00;
+        }
+        
+        .sv_main .sv_body {
+            border-top: 2px solid #ef7c00;
+        }
+        
+        .sv_main select,
+        .sv_main textarea {
+            border: 1px solid #ef7c00;
+        }
+        
+        .sv_main input[type="button"],
+        .sv_main button {
+            background-color: #ef7c00;
+            color: whitesmoke;
+        }
+        
+        input {
+            background: -internal-light-dark-color(white, black);
+        }
+        
+        .sv_main .sv_q_other input,
+        .sv_main .sv_q_text_root,
+        .sv_main .sv_q_dropdown_control,
+        .sv_main input:not([type="button"]):not([type="reset"]):not([type="submit"]):not([type="image"]):not([type="checkbox"]):not([type="radio"]),
+        .sv_main select,
+        .sv_main textarea {
+            border-top-color: #ef7c00;
+            border-right-color: #ef7c00;
+            border-bottom-color: #ef7c00;
+            border-left-color: #ef7c00;
+            color: #000000;
+        }
+        
+        .sv_main .sv_p_root>.sv_row {
+            border-bottom: 1px solid #ef7c00;
+        }
+        
+        .sv_main .sv_p_root>.sv_row:nth-child(even) {
+            background-color: #ffffff;
+        }
+        
+        div {
+            background-color: #ffffff;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="surveyContainer"></div>
+    <script>
+        var surveyJSON = {
+            title: "Student Development Platform Feedback/Query Survey",
+            completedHtml: "<h3 style=\"color: #EF7C00\"> Thank you very much for your query/feedback. We will get back to you as soon as possible!</h4>",
+            pages: [{
+                name: "survey",
+                elements: [{
+                    type: "text",
+                    name: "name",
+                    title: "Your name",
+                    isRequired: true,
+                    validators: [{
+                        type: "text",
+                        minLength: 3,
+                        maxLength: 100,
+                        allowDigits: true
+                    }]
+                }, {
+                    type: "text",
+                    name: "email",
+                    title: "Your NUSNET e-mail",
+                    description: "Your e-mail must end with @u.nus.edu to proceed with the feedback/survey",
+                    isRequired: true,
+                    validators: [{
+                        type: "email",
+                        text: "@u.nus.edu"
+                    }],
+                    inputType: "email",
+                    placeHolder: "e0123456@u.nus.edu"
+                }, {
+                    type: "comment",
+                    name: "feedback",
+                    title: "Your feedback/query on SDP",
+                    enableIf: "{name} notempty and {email} contains '@u.nus.edu'",
+                    isRequired: true,
+                    rows: 8,
+                    placeHolder: "It would be great if you can introduce your current project and then elaborate on your query so that we can help you better!"
+                }]
+            }],
+            showQuestionNumbers: "off"
+        }
+
+        function sendDataToServer(survey) {
+            survey.sendResult('182456db-7ea6-4f86-a50f-acfc0721ba21');
+        }
+
+        var survey = new Survey.Model(surveyJSON);
+        $("#surveyContainer").Survey({
+            model: survey,
+            onComplete: sendDataToServer
+        });
+    </script>
+</body>
+
+</html>

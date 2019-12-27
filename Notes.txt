@@ -7,3 +7,7 @@ Workable tutorial:
     https://tests4geeks.com/single-page-application-using-angularjs-tutorial/
 
     https://stackoverflow.com/questions/908765/how-to-link-html-pages-in-same-or-different-folders
+
+https://surveyjs.io/Examples/Survey-Creator/?id=questioneditor&theme=bootstrap
+
+https://surveyjs.io/Documentation/Library/?id=Add-Survey-into-your-Web-Page
