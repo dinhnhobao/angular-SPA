@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- development mode, change this on production-->
+    <base href="http://localhost:8000/#/" target="_blank">
+
+    <title>The title: iCode4NUS</title>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <!--importing css from directories-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--importing css from directories-->
+    <style>
+        body,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            font-family: 'Helvetica Neue', Verdana, sans-serif
+        }
+        
+        body,
+        html {
+            height: 100%;
+            line-height: 1.8;
+        }
+        
+        h3 {
+            letter-spacing: 2px;
+        }
+        /* The big image header at the top of the website */
+        
+        .bgimg-1 {
+            /* defines a new style */
+            /*background-attachment: fixed;*/
+            background-position: center;
+            background-size: cover;
+            min-height: 100%;
+            background-image: url("../images/codes.jpg");
+        }
+        /* background image */
+        
+        #guides {
+            /* defines a new style */
+            background-image: url("../images/sdp.jpg");
+            background-position: center;
+            background-size: cover;
+        }
+        
+        .w3-padding-small .w3-button {
+            /* overrides and add extra attributes for these styles in w3 */
+            padding: 16px;
+        }
+        
+        @media (max-width: 480px) {
+            /* overrides and add extra attributes for these styles in w3 */
+            .w3-padding-small .w3-button {
+                /*overriding attribute is one layer in @media */
+                padding: 6px;
+            }
+        }
+    </style>
+</head>
+
+
+<body>
+    <!-- Guides Section -->
+    <div class="w3-container" style="padding:128px 16px;" id="guides">
+        <div class="w3-indigo"><br>
+            <h3 class="w3-center">GUIDES</h3>
+            <p class="w3-center w3-large">These handy guides will get you up and running with your development platform quickly.
+            </p><br>
+        </div>
+
+        <div class="w3-row-padding w3-grayscale" style="padding:16px">
+
+            <div class="w3-col w3-third w3-margin-bottom" style="padding-left:5%;padding-right:5%;">
+                <div class="w3-card w3-white" style="padding:5px;min-height:300px;">
+
+                    <h4 class="w3-center" style="margin-top:5px">Getting Started With EC2</h4>
+                    <center>
+                        <table class="w3-table-all">
+                            <thead>
+                                <tr class="w3-light-grey">
+                                    <th>How to: </th>
+                                    <th class="w3-center">eGuide</th>
+                                </tr>
+                            </thead>
+                            <tr>
+                                <td>Request for a development platform</td>
+                                <td class="w3-center"><a href="../documents/EC2-Request.pdf" target="_blank" style="text-decoration:none;"><i class="fa fa-file-pdf-o"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td>Access the development platform</td>
+                                <td class="w3-center"><a href="../documents/EC2-Access.pdf" target="_blank" style="text-decoration:none;"><i class="fa fa-file-pdf-o"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td>Maintaining the platform</td>
+                                <td class="w3-center"><a href="../documents/EC2-Maintain.pdf" target="_blank" style="text-decoration:none;"><i class="fa fa-file-pdf-o"></i></a></td>
+                            </tr>
+                        </table>
+                    </center>
+
+                </div>
+            </div>
+            <div class="w3-col w3-third  w3-margin-bottom" style="padding-left:5%;padding-right:5%;">
+                <div class="w3-card w3-white" style="padding:5px;min-height:300px;">
+
+                    <h4 class="w3-center" style="margin-top:5px">Development Guides</h4>
+                    <center>
+                        <table class="w3-table-all">
+                            <thead>
+                                <tr class="w3-light-grey">
+                                    <th>Title</th>
+                                    <th class="w3-center">eGuide</th>
+                                </tr>
+                            </thead>
+                            <tr>
+                                <td>Mobile Development Guide</td>
+                                <td class="w3-center"><a href="../documents/DevG-Mobile.pdf" target="_blank" style="text-decoration:none;"><i class="fa fa-file-pdf-o"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td>Java Development Guide</td>
+                                <td class="w3-center"><a href="../documents/DevG-Java.pdf" target="_blank" style="text-decoration:none;"><i class="fa fa-file-pdf-o"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td>.NET Development Guide</td>
+                                <td class="w3-center"><a href="../documents/DevG-dotNet.pdf" target="_blank" style="text-decoration:none;"><i class="fa fa-file-pdf-o"></i></a></td>
+                            </tr>
+                        </table>
+                    </center>
+
+                </div>
+            </div>
+
+            <div class="w3-col w3-third  w3-margin-bottom" style="padding-left:5%;padding-right:5%;">
+                <div class="w3-card w3-white" style="padding:5px;min-height:300px;">
+
+                    <h4 class="w3-center" style="margin-top:5px">API Access</h4>
+                    <center>
+                        <table class="w3-table-all">
+                            <thead>
+                                <tr class="w3-light-grey">
+                                    <th>Title</th>
+                                    <th class="w3-center">&nbsp;</th>
+                                </tr>
+                            </thead>
+                            <tr>
+                                <td>Student Timetable APIs</td>
+                                <td class="w3-center"><a href="https://documenter.getpostman.com/view/4162156/S1Lwz87q" target="_blank" style="text-decoration:none;"><i
+                                            class="fa fa-external-link"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td>LumiNUS APIs</td>
+                                <td class="w3-center"><a href="https://wiki.nus.edu.sg/pages/viewpage.action?pageId=201035429" target="_blank" style="text-decoration:none;"><i
+                                            class="fa fa-external-link"></i></a></td>
+                            </tr>
+                        </table>
+                    </center>
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+
+
+</body>
+
+</html>
