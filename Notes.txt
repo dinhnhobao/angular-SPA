@@ -14,4 +14,24 @@ https://surveyjs.io/Documentation/Library/?id=Add-Survey-into-your-Web-Page
 
 https://www.tsaateashop.com/ for moving texts
 
+https://www.w3schools.com/w3css/w3css_references.asp
 PDPA
+
+Run website:
+python -m http.server
+
+
+home-section.html done
+contribution-section.html done
+faq-section.html done
+feedback-section.html done
+footer-section done
+guides-section html done, documents fixed
+platform-features-section.html done
+review-section.html x
+services-provided-section.html done
+
+http-server -p 3000 --cors
+
+
+

@@ -1,17 +1,20 @@
 var myQuestionsAndAnswers = [
     {
         "question": `I am interested. How do I start?`,
-        "answer": `Please email Mr. Steve at <a href="mailto:engkwalk@nus.edu.sg?Subject=iCode4NUS Enquiry">engkwalk@nus.edu.sg</a> ` 
+        "answer": `Please email Mr. Steve at <a href="mailto:engkwalk@nus.edu.sg?Subject=NUS%20Student%20Development%20Platform%20Enquiry"
+                                target="_top">Mr Kwa Lam Koon, Steve</a> ` 
         + "indicating your NUSNET ID. We will register you for a SDP account so you can develop and deploy your product there."
     },    
     {
         "question": "I am currently hosting my project on this platform. How do I port my stuff over to SDP?",
-        "answer": `Please email Mr. Steve at <a href="mailto:engkwalk@nus.edu.sg?Subject=iCode4NUS Enquiry">engkwalk@nus.edu.sg</a> ` 
+        "answer": `Please email Mr. Steve at <a href="mailto:engkwalk@nus.edu.sg?Subject=NUS%20Student%20Development%20Platform%20Enquiry"
+                                target="_top">Mr Kwa Lam Koon, Steve</a> ` 
         + "indicating your NUSNET ID. " + "Please indicate as much details about your project as possible so that we can help you migrate your product to SDP."
     },
     {
         "question": "I need customisations or other requests for my product to deploy to SDP.",
-        "answer": `Please email Mr. Steve at <a href="mailto:engkwalk@nus.edu.sg?Subject=iCode4NUS Enquiry">engkwalk@nus.edu.sg</a> ` + ", \n" 
+        "answer": `Please email Mr. Steve at <a href="mailto:engkwalk@nus.edu.sg?Subject=NUS%20Student%20Development%20Platform%20Enquiry"
+                                target="_top">Mr Kwa Lam Koon, Steve</a> ` + ", \n" 
         + "indicating your NUSNET ID. " + "Please indicate as much details about your project as possible so that we can assist you."
     },   
     {
@@ -20,7 +23,8 @@ var myQuestionsAndAnswers = [
     },
     {
         "question": "How do I create an account for SDP?",
-        "answer": `Please email Mr. Steve at <a href="mailto:engkwalk@nus.edu.sg?Subject=iCode4NUS Enquiry">engkwalk@nus.edu.sg</a> ` + ", \n" 
+        "answer": `Please email Mr. Steve at <a href="mailto:engkwalk@nus.edu.sg?Subject=NUS%20Student%20Development%20Platform%20Enquiry"
+                                target="_top">Mr Kwa Lam Koon, Steve</a> ` + ", \n" 
         + "indicating your NUSNET ID. We will register you for a SDP account so you can develop and deploy your product there."
     },
     {
@@ -38,7 +42,8 @@ var myQuestionsAndAnswers = [
     },
     {
         "question": "My product is not that relevant to the NUS community. Can I still join SDP?",
-        "answer":`Please email Mr. Steve at <a href="mailto:engkwalk@nus.edu.sg?Subject=iCode4NUS Enquiry">engkwalk@nus.edu.sg</a> ` + ", \n" 
+        "answer":`Please email Mr. Steve at <a href="mailto:engkwalk@nus.edu.sg?Subject=NUS%20Student%20Development%20Platform%20Enquiry"
+                                target="_top">Mr Kwa Lam Koon, Steve</a> ` + ", \n" 
         + "indicating your NUSNET ID. We will assess your project to see if it fulfills the criteria."
     },
     {
@@ -67,7 +72,8 @@ var myQuestionsAndAnswers = [
     {
         "question": "Non-NUS students contributed to my project. Can I deploy my project on SDP? Do non-NUS students have access to the platform?",
         "answer": "Your project should have substantial contribution from NUS students. If you are unsure, please email Mr. Steve at " 
-        + `<a href="mailto:engkwalk@nus.edu.sg?Subject=iCode4NUS Enquiry">engkwalk@nus.edu.sg</a> for further assistance. \n`
+        + `<a href="mailto:engkwalk@nus.edu.sg?Subject=NUS%20Student%20Development%20Platform%20Enquiry"
+                                target="_top">Mr Kwa Lam Koon, Steve</a> for further assistance. \n`
         + " Your project will possibly be able to deploy on SDP. " 
         + "However, non-NUS students won't be given access to our SDP. NUS students can share their accounts with non-NUS contributors for them to access the platform."
     },
@@ -76,7 +82,8 @@ var myQuestionsAndAnswers = [
         "answer": "SDP uses (a variation of) MIT License. If your open-source project hasn't adopted a license, we shall use SDP's license. "
         + "If your project is currently using MIT License, great! There should be not much of licensing issues when integrating to SDP. "
         + "If your project is using stricter licenses e.g. Apache or GNU, please email Mr. Steve at " 
-        + `<a href="mailto:engkwalk@nus.edu.sg?Subject=iCode4NUS Enquiry">engkwalk@nus.edu.sg</a>` + " for further assistance. \n" 
+        + `<a href="mailto:engkwalk@nus.edu.sg?Subject=NUS%20Student%20Development%20Platform%20Enquiry"
+                                target="_top">Mr Kwa Lam Koon, Steve</a>` + " for further assistance. \n" 
     },
     {
         "question": "How secure is your platform?",
@@ -89,4 +96,3 @@ var myQuestionsAndAnswers = [
     },
 ]
 
-showFAQSection(myQuestionsAndAnswers);
