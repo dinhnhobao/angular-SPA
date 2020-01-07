@@ -1,4 +1,5 @@
 //using Angular for routing
+//https://stackoverflow.com/questions/18287482/angularjs-1-2-injectormodulerr#_=_
 
 var app = angular.module('myApp', ['ngRoute']);
 

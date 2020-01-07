@@ -63,3 +63,16 @@ file:///C:/Tutorials/bootstrap/oneNYCCityOfNewYork.html
 meta tag for marketing
 
 https://blog.hubspot.com/marketing/call-to-action-examples
+
+
+offline migration:
+index done w/ bug/
+contribution done.
+faq done w/ bug
+query done.
+footer done.
+guides done.
+home done w/ bug.
+platform-features done.
+review done w/ bug
+services done.
