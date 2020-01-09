@@ -32,6 +32,19 @@
             background-size: cover;
             background-repeat: no-repeat;
         }
+
+        .h2:hover {
+            color: red;
+        }
+
+        .hoverable:hover {
+            color: red;
+        }
+
+        font:hover:after {
+            content: " YES, IT'S REALLY FREE!";
+            color: #ffff33;
+        }
     </style>
 </head>
 
@@ -47,15 +60,17 @@
                     <div class="container-fluid p-0 ">
                         <div class="full-width-block-wrapper homepage background-header page-top image- ">
                             <div class="wp-block-columns has-2-columns container ">
-                                <div class="wp-block-column ">
-                                    <h3>Develop fast.</h3>
-                                    <h2>Student Development Platform</h2>
-                                    <p>
+                                <div class="wp-block-column">
+                                    <h3 onmouseover="this.style.color='#4dffff';" onmouseout="this.style.color='';">
+                                        Develop fast.</h3>
+                                    <h2 onmouseover="this.style.color='#4dffff';" onmouseout="this.style.color='';">
+                                        Student Development Platform</h2>
+                                    <p onmouseover="this.style.color='#4dffff';" onmouseout="this.style.color='';">
                                         <!--Enabling NUS developers to have a deployment environment to deploy their application.
                                         FREE hosting on NUS!-->
                                         Create, deploy and expand your very own application with us.
                                         </br>
-                                        <font size="+3 "><b><u>Free</u></b></font> and secure hosting by NUS!
+                                        <font size="+2 "><b><u>Free</u></b></font> and secure hosting by NUS!
                                     </p>
                                     <div class="block# " style="text-align: left ">
                                         <a href="#/features" data-ga-event="button-quickstart-footer"
