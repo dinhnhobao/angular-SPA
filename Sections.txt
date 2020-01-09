@@ -72,7 +72,7 @@ faq done w/ bug
 query done.
 footer done.
 guides done.
-home done w/ bug.
+home done.
 platform-features done.
-review done w/ bug
+review done.
 services done.
